@@ -1,0 +1,73 @@
+0         / usexdrvrs: 0 = no extra drivers, 1 = PET drivers, 2 = psyn drivers, 3 = both
+1.0       / sublimscale: multiplier on sublimation (1.0 no effect)
+0.18      / reflec: vegetation reflectivity (frac)
+0.65      / albedo: albedo of snow (frac)
+0.90      / fswcinit: initial swc, fraction of field capacity
+0.000001  / dmpflux: in h2oflux routine (0.000001 = original value)
+10        / hours_rain: duration of each rain event (hours)
+0         / drainlag: # of days between rainfall event and drainage of soil (-1=computed)
+-200      / hpotdeep: hydraulic water potential of deep storage layer (units?)
+0.0003    / ksatdeep: saturated hydraulic conductivity of deep storage layer (cm/sec)
+0         / cldcov[1]: cloud cover month 1 (%). For PET and sublim calcs when usexdrivers= 1 or 3
+0         / cldcov[2]
+0         / cldcov[3]
+0         / cldcov[4]
+0         / cldcov[5]
+0         / cldcov[6]
+0         / cldcov[7]
+0         / cldcov[8]
+0         / cldcov[9]
+0         / cldcov[10]
+0         / cldcov[11]
+0         / cldcov[12]
+0.0      / tbotmn: min and max temperature for bottom soil layer (degrees C)
+12.4     / tbotmx: min and max temperature for bottom soil layer (degrees C)
+0.003    / dmpsoiltemp: damping factor for calculating soil temperature by layer
+30.0     / timlag: days from Jan 1 to coolest temp at bottom of soil (days)
+0.03     / Ncoeff: min water/temperature limitation coefficient for nitrify
+0        / jdayStart: turn off respiration restraint on denit from jdyStart to jdyEnd
+0        / jdayEnd: turn off respiration restraint on denit from jdyStart to jdyEnd
+0.5      / NO3_N2O_x: x-inflection, WFPS where 1/2 of max % of NO3 is lost as N2O
+2.0      / NO3_N2O_y: y-inflection, percentage of NO3 lost as N2O at x-inflection WFPS
+2.0      / NO3_N2O_step: step between minimum and maximum percentage of NO3 lost as N2O
+6.0      / NO3_N2O_slope: slope, controls how fast the percent changes as a function of WFPS
+0.4      / MaxNitAmt: maximum daily nitrification amount (gN/m^2)
+1        / SnowFlag: snow effect on soil surface temp: 0 = not insulating, 1 = insulating
+0.2      / netmn_to_no3: fraction of new net mineralization that goes to NO3 (0.0-1.0)
+1.0      / wfpsdnitadj: adjustment multiplier on inflection point for WFPS effect on denit
+1.0      / n2n2oadj: adjustment multiplier on N2/N2O ratio
+0.378    / th2ocoef1: relative swc required for 50% of maximum transpiration
+9.0      / th2ocoef2: 4 times the slope at relative swc required for 50% of max transp
+2.0      / flood_N2toN2O: N2/N2O ratio for flooded state
+0.5      / CO2_to_CH4: fraction of CO2 from soil respiration used to produce CH4
+0.27     / C6H12O6_to_CH4:reaction anaerob. carbohydrate ferment. w/ methanogen.(mole weight C6H12O6:CH4)
+0.45     / frac_to_exudates: fraction of root production that is root exudates
+0.23     / Aeh: differential coefficient (Aeh)
+0.16     / Deh: differential coefficient (Deh)
+-250.0   / Beh_flood: low-limit value for Eh during flooding course (mv)
+300.0    / Beh_drain: upper-limit value of Eh during drainage course (mv)
+7.0      / zero_root_frac: fraction CH4 emitted via bubbles when zero root biomass (0.0-1.0)
+1646.0   / elevation: site elevation (meters)
+0.0      / siteslope: site slope (degrees)
+0.0      / aspect: site aspect (degrees)
+0.0      / ehoriz: site east horizon (degrees)
+0.0      / whoriz: site west horizon (degrees)
+1.39     / sradadj[1]: solar radiation adjustment for cloud cover & transmission coeffient month=1
+1.33     / sradadj[2]
+1.24     / sradadj[3]
+1.22     / sradadj[4]
+1.25     / sradadj[5]
+1.28     / sradadj[6]
+1.28     / sradadj[7]
+1.27     / sradadj[8]
+1.28     / sradadj[9]
+1.31     / sradadj[10]
+1.38     / sradadj[11]
+1.39     / sradadj[12]
+1.0      / tminslope: slope for adjusting minimum temperature for VPD dewpoint calc
+0.0      / tminintercept: intercept for adjusting minimum temperature for VPD dewpoint calc
+1.50     / maxphoto: maximum carbon loss due to photodecomposition (ug C/KJ srad)
+200.0    / bioabsorp: litter biomass for full absorption of solar radiation (g biomass/m2)
+0        / dofDpH: compute pH effect on total denitrification? (1=yes, 0=no)
+0        / dofRpH: compute pH effect on Ratio N2:N2O during denitrification? (1=yes, 0=no)
+0        / dofwueup: plant N,P,S uptake by layer based on (0=N,P,S distribution,1=transpiration,2=root density)

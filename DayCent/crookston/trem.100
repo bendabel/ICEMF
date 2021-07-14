@@ -1,0 +1,390 @@
+SRGGT          Sorghum_grasstree
+2.0            'EVNTYP'    
+0.85           'REMF(1)'   
+0.85           'REMF(2)'   
+0.00           'REMF(3)'   
+0.00           'REMF(4)'   
+0.00           'REMF(5)'   
+0.85           'REMF(6)'   
+0.85           'REMF(7)'   
+0.0            'REMF(8)'  
+0.98           'FD(1)'     
+0.98           'FD(2)'     
+0.00           'RETF(1,1)' 
+0.00           'RETF(1,2)' 
+0.00           'RETF(1,3)' 
+0.00           'RETF(1,4)' 
+0.00           'RETF(2,1)' 
+0.00           'RETF(2,2)' 
+0.00           'RETF(2,3)' 
+0.00           'RETF(2,4)' 
+0.00           'RETF(3,1)' 
+0.00           'RETF(3,2)' 
+0.00           'RETF(3,3)' 
+0.00           'RETF(3,4)' 
+0.00           'RETF(4,1)' 
+0.00           'RETF(4,2)' 
+0.00           'RETF(4,3)' 
+0.00           'RETF(4,4)' 
+0.00           'RETF(5,1)' 
+0.00           'RETF(5,2)' 
+0.00           'RETF(5,3)' 
+0.00           'RETF(5,4)' 
+0.00           'RETF(6,1)' 
+0.00           'RETF(6,2)' 
+0.00           'RETF(6,3)' 
+0.00           'RETF(6,4)'
+0.00           'LV2STD(1)' 
+0.00           'LV2STD(2)' 
+0.00           'LV2STD(3)' 
+MSCGT          Miscanthus_grasstree
+0.0            'EVNTYP'    
+0.85           'REMF(1)'   
+0.85           'REMF(2)'   
+0.00           'REMF(3)'   
+0.00           'REMF(4)'   
+0.00           'REMF(5)'   
+0.85            'REMF(6)'   
+0.85            'REMF(7)'   
+0.0            'REMF(8)'  
+0.02           'FD(1)'     
+0.02           'FD(2)'     
+0.00           'RETF(1,1)' 
+0.00           'RETF(1,2)' 
+0.00           'RETF(1,3)' 
+0.00           'RETF(1,4)' 
+0.00           'RETF(2,1)' 
+0.00           'RETF(2,2)' 
+0.00           'RETF(2,3)' 
+0.00           'RETF(2,4)' 
+0.00           'RETF(3,1)' 
+0.00           'RETF(3,2)' 
+0.00           'RETF(3,3)' 
+0.00           'RETF(3,4)' 
+0.00           'RETF(4,1)' 
+0.00           'RETF(4,2)' 
+0.00           'RETF(4,3)' 
+0.00           'RETF(4,4)' 
+0.00           'RETF(5,1)' 
+0.00           'RETF(5,2)' 
+0.00           'RETF(5,3)' 
+0.00           'RETF(5,4)' 
+0.00           'RETF(6,1)' 
+0.00           'RETF(6,2)' 
+0.00           'RETF(6,3)' 
+0.00           'RETF(6,4)'
+0.00           'LV2STD(1)' 
+0.00           'LV2STD(2)' 
+0.00           'LV2STD(3)' 
+CLM    CLM_defaults @Currently burning live fine branches @ live wood rate. Burning dead branches at litter rate. OK?
+0.00000           'EVNTYP'    
+0.96000           'REMF(1)'  @ leaf .96; includes combust + transfers
+0.40500           'REMF(2)'  @ stem wood .405 (?? burn fine branch as wood??) 
+0.40500           'REMF(3)'  @ stem wood .405; included combustion + mortality transfers 
+0.50000           'REMF(4)'  @50% litter comubstion; considering fine branch litter rather than cwd
+0.28000           'REMF(5)'  @28% dead wood combustion 
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.15000           'FD(1)'    @ .15 root death
+0.15000           'FD(2)'    @ .15 root death
+0.16700           'RETF(1,1)' @ reflecting that .16/.96=.167 of recent leaf removal was mortality, not combustion
+0.16700           'RETF(1,2)' 
+0.16700           'RETF(1,3)' 
+0.16700           'RETF(1,4)' 
+0.25900           'RETF(2,1)' @reflecting .105/.405=.259 combustion of recently fine branches (do these end up in litter or wood??)
+0.25900           'RETF(2,2)' 
+0.25900           'RETF(2,3)' 
+0.25900           'RETF(2,4)' 
+0.25900           'RETF(3,1)' @ reflecting 80% combustion of recently killed livewood
+0.25900           'RETF(3,2)' 
+0.25900           'RETF(3,3)' 
+0.25900           'RETF(3,4)' 
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+LV    Landis_severity_5 
+1.0               'EVNTYP'    @ FIRE
+1.0               'REMF(1)'   @ frac. of live leaves KILLED. 1.0-LV2STD(1) will be removed.
+1.0               'REMF(2)'   @ frac. of live fine branches KILLED. 1.0-LV2STD(2) will be removed.
+1.0               'REMF(3)'   @ frac. of live large wood KILLED. 1.0-LV2STD(3) will be removed.
+1.0               'REMF(4)'   @ frac. of existing dead fine braches on the ground removed (non-fire only)
+0.80              'REMF(5)'   @ frac. of existing dead large wood on the ground removed (non-fire only)
+1.0               'REMF(6)'   @ frac. of existing dead attached leaves removed
+1.0               'REMF(7)'   @ frac. of existing dead attached branches removed
+0.80              'REMF(8)'   @ frac. of existing dead standing large wood removed
+0.00000           'FD(1)'     
+0.00000           'FD(2)'    
+0.00000           'RETF(1,1)' 
+0.00000           'RETF(1,2)' 
+0.00000           'RETF(1,3)' 
+0.00000           'RETF(1,4)' 
+0.00000           'RETF(2,1)' 
+0.00000           'RETF(2,2)' 
+0.00000           'RETF(2,3)' 
+0.00000           'RETF(2,4)' 
+0.05              'RETF(3,1)' @ frac. of live large wood C removed that is returned as charcoal or wood2c
+0.20              'RETF(3,2)' @ frac. of live large wood N removed that is returned as ash or wood2e(N)
+0.20              'RETF(3,3)' @ frac. of live large wood P removed that is returned as ash or wood2e(P)
+0.20           'RETF(3,4)' @ frac. of live large wood S removed that is returned as ash or wood2e(S)
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.05           'RETF(6,1)'  @ frac. of dead large wood C removed that is returned as charcoal or wood2c
+0.20           'RETF(6,2)'  @ frac. of dead large wood N removed that is returned as ash or wood2e(N)
+0.20           'RETF(6,3)'  @ frac. of dead large wood P removed that is returned as ash or wood2e(P)
+0.20           'RETF(6,4)'  @ frac. of dead large wood S removed that is returned as ash or wood2e(S)
+0.0            'LV2STD(1)'  @ frac. of KILLED live leaves that become dead attached leaves. The remaining frac. is removed.
+0.0            'LV2STD(2)'  @ frac. of KILLED live fine branches that become dead attached fine branches. The remaining frac. is removed.
+0.20           'LV2STD(3)'  @ frac. of KILLED live large wood that becomes dead standing large wood. The remaining frac. is removed.
+LIV    Landis_severity_4
+0.00000           'EVNTYP'    
+0.92450           'REMF(1)'  @85% cohort reduction--> estimated to be 92.45% of biomass based on FIA data (this could be modified!) 
+0.92450           'REMF(2)'   @85% cohort reduction --> estimated to be 92.45% of biomass based on FIA data (this could be modified!) 
+0.92450           'REMF(3)'   @85% cohort reduction --> estimated to be 92.45% of biomass based on FIA data (this could be modified!) 
+1.00000           'REMF(4)'  @100% litter combustion   
+0.50000           'REMF(5)'  @50% wood combustion
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.00000           'FD(1)'    @uncertain, address 
+0.00000           'FD(2)'     @uncertain, address
+0.00000           'RETF(1,1)' @reflecting 100% combustion of recently killed leaves
+0.00000           'RETF(1,2)' 
+0.00000           'RETF(1,3)' 
+0.00000           'RETF(1,4)' 
+0.00000           'RETF(2,1)' @reflecting 100% combustion of recently fine branches (do these end up in litter or wood??)
+0.00000           'RETF(2,2)' 
+0.00000           'RETF(2,3)' 
+0.00000           'RETF(2,4)' 
+0.50000           'RETF(3,1)' @ reflecting 50% combustion of recently killed livewood
+0.50000           'RETF(3,2)' 
+0.50000           'RETF(3,3)' 
+0.50000           'RETF(3,4)' 
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+LIII    Landis_severity_3
+0.00000           'EVNTYP'    
+0.68910           'REMF(1)'  @50% cohort reduction -> estimated to be 68.91% of biomass based on FIA data (this could be modified!)
+0.68910           'REMF(2)'   @50% cohort reduction -> estimated to be 68.91% of biomass based on FIA data (this could be modified!)
+0.68910           'REMF(3)'   @50% cohort reduction -> estimated to be 68.91% of biomass based on FIA data (this could be modified!)
+1.00000           'REMF(4)'  @100% litter combustion   
+0.20000           'REMF(5)'  @20% wood combustion
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.00000           'FD(1)'    @uncertain, address 
+0.00000           'FD(2)'     @uncertain, address
+0.00000           'RETF(1,1)' @reflecting 100% combustion of recently killed leaves
+0.00000           'RETF(1,2)' 
+0.00000           'RETF(1,3)' 
+0.00000           'RETF(1,4)' 
+0.00000           'RETF(2,1)' @reflecting 100% combustion of recently fine branches (do these end up in litter or wood??)
+0.00000           'RETF(2,2)' 
+0.00000           'RETF(2,3)' 
+0.00000           'RETF(2,4)' 
+0.80000           'RETF(3,1)' @ reflecting 20% combustion of recently killed livewood
+0.80000           'RETF(3,2)' 
+0.80000           'RETF(3,3)' 
+0.80000           'RETF(3,4)'
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+LII    Landis_severity_2
+0.00000           'EVNTYP'    
+0.02600           'REMF(1)'  @20% cohort reduction  --> estimated to be 2.6% of biomass based on FIA data (this could be modified!) 
+0.02600           'REMF(2)'   @20% cohort reduction --> estimated to be 2.6% of biomass based on FIA data (this could be modified!) 
+0.02600           'REMF(3)'   @20% cohort reduction --> estimated to be 2.6% of biomass based on FIA data (this could be modified!) 
+0.75000           'REMF(4)'  @75% litter combustion   
+0.05000           'REMF(5)'  @5% wood combustion
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.00000           'FD(1)'    @uncertain, address 
+0.00000           'FD(2)'     @uncertain, address
+0.25000           'RETF(1,1)' @reflecting 75% combustion of recently killed leaves
+0.25000           'RETF(1,2)' 
+0.25000           'RETF(1,3)' 
+0.25000           'RETF(1,4)' 
+0.25000           'RETF(2,1)' @reflecting 75% combustion of recently fine branches (do these end up in litter or wood??)
+0.25000           'RETF(2,2)' 
+0.25000           'RETF(2,3)' 
+0.25000           'RETF(2,4)' 
+0.95000           'RETF(3,1)' @ reflecting 5% combustion of recently killed livewood
+0.95000           'RETF(3,2)' 
+0.95000           'RETF(3,3)' 
+0.95000           'RETF(3,4)'
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+LI    Landis_severity_1
+0.00000           'EVNTYP'    
+0.00000           'REMF(1)'  @ 0% cohort reduction
+0.00000           'REMF(2)'   @ 0% cohort reduction
+0.00000           'REMF(3)'   @ 0% cohort reduction
+0.50000           'REMF(4)'  @50% litter combustion   
+0.00000           'REMF(5)'  @0% wood combustion
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.00000           'FD(1)'    @uncertain, address 
+0.00000           'FD(2)'     @uncertain, address
+0.50000           'RETF(1,1)' @reflecting 50% combustion of recently killed leaves
+0.50000           'RETF(1,2)' 
+0.50000           'RETF(1,3)' 
+0.50000           'RETF(1,4)' 
+0.50000           'RETF(2,1)' @reflecting 50% combustion of recently fine branches (do these end up in litter or wood??)
+0.50000           'RETF(2,2)' 
+0.50000           'RETF(2,3)' 
+0.50000           'RETF(2,4)' 
+1.00000           'RETF(3,1)' @ reflecting 0% combustion of recently killed livewood. Note: Should be 0% mortality in current scenario, but setting return to 100% in case this is changed.
+1.00000           'RETF(3,2)' 
+1.00000           'RETF(3,3)' 
+1.00000           'RETF(3,4)'
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+BURNJ  Low_severity_burn_LDPN Jeff Changes
+0.00000           'EVNTYP'    @changed from 1, as fire events ignore cwd/fwd (wood2c,wood1c).
+0.07500           'REMF(1)'   
+0.02000           'REMF(2)'   @from .075, lowered based on campbell
+0.00000           'REMF(3)'   @from .05, lowered based on campbell
+0.05000           'REMF(4)'   @from .3, lowered based on campbell   
+0.30000           'REMF(5)'   
+0.0            'REMF(6)'   
+0.0            'REMF(7)'   
+0.0            'REMF(8)'   
+0.05000           'FD(1)'     
+0.00500           'FD(2)'     
+0.05000           'RETF(1,1)' 
+0.60000           'RETF(1,2)' 
+1.00000           'RETF(1,3)' 
+0.00000           'RETF(1,4)' 
+0.05000           'RETF(2,1)' 
+0.60000           'RETF(2,2)' 
+1.00000           'RETF(2,3)' 
+0.00000           'RETF(2,4)' 
+0.05000           'RETF(3,1)' 
+0.60000           'RETF(3,2)' 
+1.00000           'RETF(3,3)' 
+0.00000           'RETF(3,4)'
+0.0            'RETF(4,1)' 
+0.0            'RETF(4,2)' 
+0.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.0            'RETF(5,1)' 
+0.0            'RETF(5,2)' 
+0.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.0            'RETF(6,1)' 
+0.0            'RETF(6,2)' 
+0.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
+BURN  Low_severity_burn_LDPN   @note that remf(4-5) does not actually remove w/ event type 1 (does w/ 0)
+1.00000           'EVNTYP'     @ FIRE
+0.01500           'REMF(1)'   
+0.01500           'REMF(2)'   
+0.00500           'REMF(3)'   
+0.10000           'REMF(4)'   
+0.10000           'REMF(5)'   
+0.015             'REMF(6)'   
+0.015             'REMF(7)'   
+0.005             'REMF(8)'   
+0.05000           'FD(1)'     
+0.00500           'FD(2)'     
+0.35000           'RETF(1,1)' 
+0.70000           'RETF(1,2)' 
+1.00000           'RETF(1,3)' 
+0.00000           'RETF(1,4)' 
+0.35000           'RETF(2,1)' 
+0.70000           'RETF(2,2)' 
+1.00000           'RETF(2,3)' 
+0.00000           'RETF(2,4)' 
+0.35000           'RETF(3,1)' 
+0.70000           'RETF(3,2)' 
+1.00000           'RETF(3,3)' 
+0.00000           'RETF(3,4)'
+0.35           'RETF(4,1)' 
+0.70           'RETF(4,2)' 
+1.0            'RETF(4,3)' 
+0.0            'RETF(4,4)' 
+0.35           'RETF(5,1)' 
+0.70           'RETF(5,2)' 
+1.0            'RETF(5,3)' 
+0.0            'RETF(5,4)' 
+0.35           'RETF(6,1)' 
+0.70           'RETF(6,2)' 
+1.0            'RETF(6,3)' 
+0.0            'RETF(6,4)'
+0.0            'LV2STD(1)' 
+0.0            'LV2STD(2)' 
+0.0            'LV2STD(3)' 
